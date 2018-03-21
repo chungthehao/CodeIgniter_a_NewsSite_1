@@ -1,0 +1,7 @@
+# HTID:4279773: DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES BELOW
+php_value display_errors 1
+# DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES ABOVE HTID:4279773:
+
+RewriteEngine on
+RewriteCond $1 !^(index\.php|images|uploads|public|robots\.txt)
+RewriteRule ^(.*)$ /index.php/$1 [L]

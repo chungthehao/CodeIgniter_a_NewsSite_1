@@ -1,0 +1,182 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+margin:0px;
+}
+
+body{
+font:12px verdana;
+width:780px;
+margin:auto;
+}
+
+a{
+color:#666666;
+text-decoration:none;
+}
+
+a:hover{
+color: #FF6600;
+}
+
+#top{
+background:#0099FF;
+color:#FFFFFF;
+line-height:60px;
+height:60px;
+text-align:center;
+font-weight:900;
+}
+
+#bottom{
+clear:left;
+height:30px;
+line-height:30px;
+text-align:center;
+background:#333333;
+color:#FFFFFF;
+font-weight:900;
+}
+
+
+
+#left ul a:hover{
+background: #FF9900;
+}
+
+#info{
+float:left;
+width:780px;
+}
+
+#info .news{
+padding:5px;
+text-align:justify;
+}
+
+.news h1{
+font-size:14px;
+margin-bottom:5px;
+}
+
+.news img{
+border:1px solid #CCCCCC;
+padding:2px;
+margin:0px 5px 5px 0px;
+}
+
+.news .cls{
+clear:left;
+border-bottom:1px solid #CCCCCC;
+}
+
+#menu ul{
+list-style-type:none;
+padding:0px;
+margin:0px;
+background:#FF6600;
+float:left;
+width:780px;
+text-align:center;
+}
+
+#menu ul li{
+display:inline;
+}
+
+#menu ul a{
+line-height:20px;
+font-weight:bold;
+background:#FF6600;
+color:#FFFFFF;
+padding-left:30px;
+}
+
+#menu ul a:hover{
+color:#FFFF00;
+}
+
+#info td{
+text-align:center;
+border:1px solid #99CC00;
+}
+
+#info .title{
+color:#FFFFFF;
+background:#99CC00;
+font-weight:bold;
+border:1px solid #99CC00;
+}
+
+#info table{
+margin:10px;
+}
+
+.formPanel fieldset{
+border:1px solid #99CC00;
+margin:5px;
+}
+
+.formPanel legend{
+font-weight:bold;
+color:#99CC00;
+}
+
+.formPanel label{
+float:left;
+width:120px;
+padding-left:25px;
+font-weight:bold;
+}
+
+.formPanel input, textarea, select{
+border:1px solid #99CC00;
+margin-bottom:3px;
+}
+
+.button{
+background:#99CC00;
+font-weight:bold;
+color:#FFFFFF;
+}
+
+.small{
+margin:auto;
+width:450px;
+}
+
+.medium{
+margin:auto;
+width:600px;
+}
+
+.big{
+margin:auto;
+width:780px;
+}
+.error-mess{
+	background-color: #d04d00;
+	color: white;
+	margin: 15px;
+}
+.error-mess ul{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+.error-mess ul li{
+	padding: 5px 20px;
+}
+.success-mess{
+	background-color: green;
+	color: white;
+	margin: 15px;
+}
+.success-mess ul{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+.success-mess ul li{
+	padding: 5px 20px;
+}
