@@ -1,4 +1,9 @@
 <?php
+/*
+ * AdminController có làm thêm các việc sau:
+ * - Lấy đường dẫn template ứng với module dựa vào URL.
+ * - Chỉ cho admin đi tiếp (trừ t/h verify).
+ */
 class Categorie extends AdminController{
 	public function __construct(){
 		parent::__construct();			
@@ -31,6 +36,7 @@ class Categorie extends AdminController{
 		$this->session->set_flashdata('flash_mess','You have just successfully <b>deleted</b> a categorie!');
 		redirect(base_url().'admin/categorie/index');
 	}
+	// Dùng AJAX để thêm chuyên mục
 	public function add(){
 		$name = $this->input->post('name');
 		$parent = $this->input->post('parent');

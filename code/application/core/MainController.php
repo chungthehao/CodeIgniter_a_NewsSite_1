@@ -13,6 +13,9 @@ class MainController extends MY_Controller{
 		$this->load->library('menu',$config);
 		$this->load->model('Mcategorie');
 		$this->menu->setMenu($this->Mcategorie->listAllCate());
+		// echo '<pre>';
+		// print_r($this->_data);
+		// echo '</pre>';
 		$this->_data['menu'] = $this->menu->callMenu();
 	}
 }

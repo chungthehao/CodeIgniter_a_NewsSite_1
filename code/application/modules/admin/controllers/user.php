@@ -1,4 +1,9 @@
 <?php
+/*
+ * AdminController có làm thêm các việc sau:
+ * - Lấy đường dẫn template ứng với module dựa vào URL.
+ * - Chỉ cho admin đi tiếp (trừ t/h verify).
+ */
 class User extends AdminController{
 	public function __construct(){
 		parent::__construct();			

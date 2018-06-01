@@ -72,6 +72,54 @@
 		 * Method CallMenu tạo ra menu trái dựa vào kq mà setMenu đã tạo
 		 * - Method này tạo ra cái thẻ ul, li lồng nhau
 		 * - Và menu con sẽ có link
+		 * - Cấu trúc $this->_data sau khi setMenu
+Array
+(
+    [0] => Array
+        (
+            [0] => Array
+                (
+                    [cate_id] => 1
+                    [cate_title] => Kinh Tế
+                    [cate_parent] => 0
+                )
+
+            [1] => Array
+                (
+                    [cate_id] => 2
+                    [cate_title] => Văn Hoá
+                    [cate_parent] => 0
+                )
+
+            [2] => Array
+                (
+                    [cate_id] => 7
+                    [cate_title] => Xã Hội
+                    [cate_parent] => 0
+                )
+			...
+
+        )
+
+    [1] => Array
+        (
+            [0] => Array
+                (
+                    [cate_id] => 3
+                    [cate_title] => Tài Chính
+                    [cate_parent] => 1
+                )
+
+            [1] => Array
+                (
+                    [cate_id] => 18
+                    [cate_title] => Bất Động Sản
+                    [cate_parent] => 1
+                )
+
+        )
+        ...
+)
 		 */
 		public function callMenu($id_dang_echo=0){
 			if(isset($this->_data[$id_dang_echo])){
