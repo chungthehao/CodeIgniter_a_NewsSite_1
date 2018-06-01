@@ -15,6 +15,6 @@
     	<li><a href="#">Tin Kinh Te</a></li>                                                              
     </ul> -->
     <?php 
-        echo $menu;
+        echo $menu; // Từ MainController đã chuẩn bị sẵn rồi
      ?>
 </div>
